@@ -1,8 +1,12 @@
 import React from 'react';
 import './css/App.css'
 import './css/Contact.css'
+import './css/ProfileDetails.css'
+import './css/Footer.css'
 import Contact from './containers/contact-info'
+import ProfileDetails from './containers/profile-details'
 import Footer from './containers/footer'
+
 
 function App() {
   return (
@@ -18,19 +22,7 @@ function App() {
         </div> {/* end of "profile-information" */}
         
         <Contact />
-
-
-        <div className="profile-details">
-          <div className="About">
-            <h3>About</h3>
-            <p>I am a frontend developer witha  particular interest in making things simple and automating daily tasks. I try to keep up with the security and best practices, and am always looking for new things to learn.</p>
-          </div>
-          <div className="Interests">
-            <h3>Interests</h3>
-            <p>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. travel geek. Pop culture ninja. Coffee fanatic</p>
-          </div>
-        </div> {/* end of "profile-details" */}
-
+        <ProfileDetails />
       <Footer />
     </div> // end of App 
   );

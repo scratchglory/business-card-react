@@ -9,7 +9,9 @@ export default function Contact() {
             <FontAwesomeIcon icon={faEnvelope} />
               Email ME!
               </button>
-          <button type="button" className="linkedin" onclick="alert('hello world!')">LinkedIn</button>
+          <button type="button" className="linkedin" onclick="alert('hello world!')">
+            {/* <FontAwesomeIcon icon={faLinkedIn} /> */}
+            LinkedIn</button>
         </div>
     )
 };
