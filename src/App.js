@@ -1,5 +1,7 @@
-// import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import './css/App.css'
+import './css/Contact.css'
+import Contact from './containers/contact-info'
 import Footer from './containers/footer'
 
 function App() {
@@ -15,20 +17,17 @@ function App() {
           <a href="www.google.com">laurasmith.website</a>
         </div> {/* end of "profile-information" */}
         
-        <div className="contact-info">
-          <button type="button" onclick="alert('hello world!')">Email ME!</button>
-          <button type="button" onclick="alert('hello world!')">LinkedIn</button>
-        </div>
+        <Contact />
 
 
         <div className="profile-details">
           <div className="About">
             <h3>About</h3>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            <p>I am a frontend developer witha  particular interest in making things simple and automating daily tasks. I try to keep up with the security and best practices, and am always looking for new things to learn.</p>
           </div>
           <div className="Interests">
             <h3>Interests</h3>
-            <p>lorem ipsum dolor sit amet, consectetur adipiscing</p>
+            <p>Food expert. Music scholar. Reader. Internet fanatic. Bacon buff. Entrepreneur. travel geek. Pop culture ninja. Coffee fanatic</p>
           </div>
         </div> {/* end of "profile-details" */}
 

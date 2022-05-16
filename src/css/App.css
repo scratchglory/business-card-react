@@ -36,3 +36,36 @@
     transform: rotate(360deg);
   }
 }
+
+
+.App {
+  /* border: 2px solid white; */
+  border-radius: 10px;
+  padding-bottom: 9px;
+  width: 40%;
+  margin: 10% auto;
+  background-color: #1A1B21;
+}
+
+.profile-image img{
+  border-radius: 12px 12px 0 0;
+  width: 100%;
+}
+
+.profile-header h2{
+  color: white;
+  margin-bottom: 0;
+}
+
+.profile-header h4{
+  color: #F3BF99;
+  margin: 0 0 3% 0;
+  font-weight: normal;
+}
+
+.profile-header a{
+  color: #F5F5F5;
+  text-decoration: none;
+  margin: 10% 0;
+  font-size: 0.9rem;
+}

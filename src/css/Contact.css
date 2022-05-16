@@ -1,0 +1,22 @@
+
+.contact-info {
+    margin: 5% 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .contact-info .email { 
+    background-color: #F5F5F5;
+    padding: 10px 24px;  
+    color: #1E1F26;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.contact-info .linkedin {
+    background-color: #5093E2;
+    padding: 10px 24px;
+    color: #FFFFFF;
+    font-weight: bold;
+    border-radius: 8px;
+  }
