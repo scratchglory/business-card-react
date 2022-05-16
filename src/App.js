@@ -16,9 +16,9 @@ function App() {
       </div> {/* emd or "profile-image" */}
 
         <div className="profile-header">
-          <h2>Laura Smith</h2>
-          <h4>Frontend Developer</h4>
-          <a href="www.google.com">laurasmith.website</a>
+          <h2>Robble Robble</h2>
+          <h4>Frontend Hamburgalur</h4>
+          <a href="www.google.com">robble.robble</a>
         </div> {/* end of "profile-information" */}
         
         <Contact />
